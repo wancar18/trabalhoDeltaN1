@@ -1,6 +1,6 @@
+<%@page import="com.sun.xml.internal.txw2.Document"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-
+	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,8 +13,7 @@
 	</p>
 
 	<%
-	
-	String nome = request.getParameter("nome");
+		String nome = request.getParameter("nome");
 	String endereco = request.getParameter("endereco");
 	String cpf = request.getParameter("cpf");
 	String telefone = request.getParameter("telefone");

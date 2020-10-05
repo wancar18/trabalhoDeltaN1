@@ -17,7 +17,7 @@
 	</p>
 
 	<%
-	String nome = request.getParameter("nome");
+		String nome = request.getParameter("nome");
 	String data = request.getParameter("dataNasc");
 
 	SimpleDateFormat dataform = new SimpleDateFormat("dd/MM/yyyy");

@@ -1,3 +1,4 @@
+<%@ page import="java.util.*" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -12,12 +13,14 @@
 <ul>
 
 <%
-ArrayList <String> mensagem = (ArrayList<String>) session.getAttribute ("mensagem");
-for(String mensagem : mensagem){
-	out.print("<li>" + mensagem + "</>");
+ArrayList <String> mensagens = (ArrayList<String>) session.getAttribute ("mensagens");
+for(String mensagem: mensagens){
+	out.print("<li>" + mensagem + "</li><br/><br/>");
 }
 
 %>
+<a href="novaMensagem.jsp">Nova Mensagem</a>
+
 
 </ul>
 

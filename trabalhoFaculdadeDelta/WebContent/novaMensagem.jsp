@@ -14,8 +14,9 @@
 
 	<form action="gravarMensagem.jsp" method="post">
 		E-mail: <input type="text" name="email" /> Mensagem: <input
-			type="text" name="mensagem" /> <input type="submit" value="Gravar" />
+			type="text" name="mensagem" /> <input type="submit" value="Gravar" /><br/><br/>
+	
 	</form>
-
+	<a href="listarMensagem.jsp">Listar Mensagens</a>
 </body>
 </html>
